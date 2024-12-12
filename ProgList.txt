@@ -1,0 +1,12 @@
+
+-> Arrays :-
+    1. Second Largest Element in Array => (011224).
+    2. Moving all zeros to end => (041224).
+    3. Array Reverse => (041224)
+    4. Array Right Rotation => (131224 - Midnight).
+-> Strings :-
+
+-> Sorting :-
+
+-> Searching :-
+    23. Number of Occurences of an element in sorted array. => (121224).
