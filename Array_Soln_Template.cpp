@@ -5,13 +5,13 @@ using namespace std;
 class Solution{
     private:
         int n;
-        vector<int> v;
+        vector<int> arr;
         void getN();
         void getVector();
 
     public:
         Solution();
-        Solution(vector<int>& v, int n);
+        Solution(vector<int>& arr, int n);
 
         void printVector();
         // Additional Methods can be added as per the problem requirement.
@@ -21,7 +21,7 @@ class Solution{
 void Solution :: printVector(){
     cout << "Printing the vector ... \n";
     cout << "[ ";
-    for(const int& ele : this->v){
+    for(const int& ele : this->arr){
         cout << ele << " ";
     }
     cout << "]\n";
@@ -43,7 +43,7 @@ void Solution :: getVector(){
     int temp;
     for(int i = 0; i<n; i++){
         cin >> temp;
-        this->v.push_back(temp);
+        this->arr.push_back(temp);
     }
 }
 
@@ -52,7 +52,7 @@ Solution :: Solution(){
     getVector();
 }
 
-Solution :: Solution(vector<int>& v, int n){
+Solution :: Solution(vector<int>& arr, int n){
     this->n = n;
-    this->v = v;
+    this->arr = arr;
 }
