@@ -18,21 +18,15 @@ class Solution{
 
 };
 
-void Solution :: printVector(){
-    cout << "Printing the vector ... \n";
-    cout << "[ ";
-    for(const int& ele : this->arr){
-        cout << ele << " ";
-    }
-    cout << "]\n";
-}
-
+// Main Code.
 int main(void)
 {    
     Solution obj = Solution();
     obj.printVector();
 }
 
+
+// Definitions for the pre-existing constructors & methods of the SolnTemplate
 void Solution :: getN(){
     cout << "Enter the size : ";
     cin >> this->n;
@@ -56,3 +50,13 @@ Solution :: Solution(vector<int>& arr, int n){
     this->n = n;
     this->arr = arr;
 }
+
+void Solution :: printVector(){
+    cout << "Printing the vector ... \n";
+    cout << "[ ";
+    for(const int& ele : this->arr){
+        cout << ele << " ";
+    }
+    cout << "]\n";
+}
+
