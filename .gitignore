@@ -5,3 +5,8 @@
 
 # VS Code workspace.
 *.code-workspace
+
+# Live IO
+input.txt
+output.txt
+hello.cpp
